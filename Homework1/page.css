@@ -1,0 +1,432 @@
+body {
+	font-family: 'Lato', sans-serif;
+	max-width: 100%;
+	background-color: #6b503d;
+	margin: 0px;
+	padding: 0px;
+}
+
+.header {
+	max-width: 100%;
+}
+
+.pictureblock {
+	padding-top: 8vh;
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: nowrap;
+}
+
+.pictureblock__list {
+	font-size: xx-large;
+	color: antiquewhite;
+	align-self: center;
+	margin-bottom: 0%;
+	user-select: none;
+}
+
+.pictureblock__list__element {
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+.pictureblock__list__element:hover {
+	cursor: pointer;
+	color: #679fb7;
+}
+
+
+.menublock {
+	text-align: center;
+	height: 5vh;
+	background-color:  antiquewhite;
+	position: fixed;
+	width: 100%;
+	opacity: 70%;
+	padding-top: 3vh;
+}
+
+
+.menublock:hover {
+	opacity: 100%;
+    transition: 900ms;
+}
+
+
+.menu__item {
+	text-decoration: none;
+	color: #679fb7;
+	margin-left: 3%;
+    margin-top: 10%;
+}
+
+
+.pictureblock__img {
+    width: 50%;
+}
+
+
+.description_block {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+
+
+.started__text {
+	color: antiquewhite;
+	text-align: center;
+}
+
+
+.pictureblock__text {
+	color:antiquewhite ;
+	text-align: center;
+	width: 100%;
+}
+
+
+.pictureblock__button {
+	margin-left: 25%;
+    margin-top: 5%;
+    border-radius: 13px;
+    background-color: transparent;
+    width: 50%;
+    height: 20%;
+	outline: none;
+	background-color:antiquewhite ;
+
+}
+
+
+.pictureblock__button:hover {
+    background-color: #679fb7;
+    transition: 900ms;
+	cursor: pointer;
+	transform: rotateY(360deg); 
+    transition: 700ms;
+}
+
+
+.additional__presentation {
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: nowrap;
+	width: 100%;
+	text-align: center;
+	background-color:antiquewhite ;
+	opacity: 70%;
+	color: #6b503d;
+	padding-bottom: 1.5%;
+}
+
+.additional__presentation__item {
+	width: 25%;
+}
+
+.additional__presentation__item:hover {
+	opacity: 70%;
+	color: #679fb7;
+	cursor: pointer;
+}
+
+.fa:hover {
+	transform: scale(1.1);
+	transition: 100ms;
+}
+
+
+.additional__presentation__header {
+	margin: 0%;
+}
+
+.additional__presentation__text {
+	margin: 1%;
+}
+
+
+.main {
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: nowrap;
+	width: 100%;
+}
+
+.infoblock {
+	width: 50%;
+}
+
+
+.infoblock__header {
+	margin: 0%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	text-align: center;
+	color: antiquewhite ;
+	user-select: none;
+	margin-left: 38%;
+	margin-right: 38%;
+}
+
+.infoblock__header:hover {
+	cursor: pointer;
+	color: #679fb7;
+}
+
+.pictureblock__img_sec {
+	width: 50%;
+}
+
+.animated__block {
+	background: url(images/gif_f.gif);
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	background-position: center;
+}
+
+.animated__block__text {
+	text-align: center;
+	margin: 0%;
+	color:antiquewhite ;
+	font-family: cursive;
+}
+
+.list__of__subjects {
+	color:antiquewhite ;
+}
+
+.list__of__subjects {
+	list-style-type: none;
+	font-size: xx-large;
+	font-style: italic;
+	text-align: center;
+	padding: 0%;
+}
+
+.wrap__subjects {
+	margin-left: 40%;
+	margin-right: 40%;
+}
+
+.subject__element {
+	margin: 0%;
+	padding: 0%;
+	text-shadow: black 0 0 3px;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	user-select: none;
+}
+
+.subject__element:hover {
+	cursor: pointer;
+	transform: rotateX(360deg); 
+    transition: 200ms;
+	
+}
+
+.animated__block__text {
+	user-select: none;
+	margin-left: 43%;
+	margin-right: 43%;
+}
+
+.help__text {
+	text-align: center;
+	margin: 0%;
+	padding: 0%;
+	opacity: 50%;
+	user-select: none;
+}
+
+.animated__block__text:active {
+	opacity: 70%;
+	transform: rotateX(360deg); 
+    transition: 500ms;
+}
+
+.animated__block__text:hover {
+	cursor: pointer;
+	color: #679fb7;
+}
+
+.For__students {
+	background-color: antiquewhite;
+	width: 50%;
+
+}
+
+.infoblock {
+	color: antiquewhite;
+}
+
+.infoblock p {
+	padding-left: 1%;
+}
+
+.For__students__header {
+	margin: 0%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	text-align: center;
+	color: #6b503d;
+	user-select: none;
+	margin-left: 35%;
+	margin-right: 35%;
+}
+
+.For__students__header:hover {
+	cursor: pointer;
+	color: #679fb7;
+}
+
+.info__students {
+	text-indent: 5%;
+	margin: 0%;
+}
+
+.info__students__second {
+	text-indent: 5%;
+}
+
+.info__teachers {
+	text-indent: 5%;
+	margin: 0%;
+}
+
+.info__teachers__second {
+	text-indent: 5%;
+}
+
+.info__teachers__third {
+	text-indent: 5%;
+}
+
+.info__teachers__fourth {
+	text-indent: 5%;
+	margin-bottom: 0%;
+}
+
+.For__students__wrapper {
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.For__students p {
+	padding-left: 1%;
+}
+
+.Additional__info__students {
+	width: 50%;
+}
+
+.For__students__additional__header {
+	margin: 0%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	text-align: center;
+	color: antiquewhite;
+	user-select: none;
+	margin-left: 35%;
+	margin-right: 35%;
+}
+
+.For__students__additional__header:hover {
+	cursor: pointer;
+	color: #679fb7;
+}
+
+.Additional__info__first {
+	margin: 0%;
+}
+
+.Additional__info__students p {
+	text-indent: 5%;
+	color: antiquewhite;
+	padding-left: 1%;
+}
+
+.inputtext {    
+	display: flex;
+    flex-direction: column;
+	width: 100%;
+}
+
+.inputtext input {
+	width: 50%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid antiquewhite;
+    outline:none;
+	align-self: center;
+	text-align: center;
+	margin-bottom: 2%;
+	padding-bottom: 1%;
+}
+
+.Registration__title {
+	text-align: center;
+	color: antiquewhite;
+}
+
+.Registration__subtitle {
+	text-align: center;
+	color: antiquewhite;
+}
+
+.Registration__button {
+	border-radius: 13px;
+    border-color: transparent;
+	background-color: antiquewhite;
+    width: 50%;
+    height: 10%;
+    outline: none;
+	align-self: center;
+	margin-bottom: 5%;
+}
+
+.Registration__button:hover {
+	cursor: pointer;
+	background-color: #679fb7;
+}
+
+.Suppurt__header {
+	align-self: center;
+	color: antiquewhite;
+}
+
+.Support__block {
+	align-self: center;
+	color: antiquewhite;
+	padding-bottom: 1%;
+	text-decoration: none;
+}
+
+a:visited {
+	color: 	#CD5C5C;
+}
+
+.Social__media {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 2%;
+}
+
+.Social__media i {
+	color: antiquewhite;
+}
+
+.Git {
+	padding-right: 1%;
+}
+
+.Lnkd {
+	padding-left: 1%;
+}
+
+.Social__media i:hover {
+	cursor: pointer;
+	color: #679fb7;
+}
