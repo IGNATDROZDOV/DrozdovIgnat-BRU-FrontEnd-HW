@@ -17,7 +17,7 @@
 .nav-bar {
 	background-color: #fff;
 	height: 70px;
-	padding: 0 20px;
+	padding: 0 40px;
 	display: flex;
 }
 
@@ -75,6 +75,14 @@
 	position: relative;
 }
 
+.picture-block h1{
+	font-weight: 800;
+	transform: scale(.7, 1);
+	font-size: 4.2rem;
+	font-family: oswald,arial,sans-serif;
+	line-height: 4.2rem;
+}
+
 .picture-block-image{
 	display: block;
 	object-fit: cover;
@@ -84,10 +92,8 @@
 
 .picture-block-text{
 	position: absolute;
-	width: 30%;
-	top: 40%;
-	left: 35%;
-	right: 35%;
+	top: 35%;
+	margin: 0 25%;
 }
 
 .picture-block-text{
@@ -257,6 +263,65 @@
 	justify-content: space-around;
 }
 
+.bar-menu-wrapper .active-button{
+	color: #71bc42;
+}
+
+.non-active-button:hover{
+	color: #343a40;
+	transition: 500ms;
+}
+
+.first--carousel a:hover{
+	background-color:  #1f7527;
+	transition: 500ms;
+}
+
+.footer .carousel-link:hover{
+	background-color:  #1f7527;
+	transition: 500ms;
+}
+
+.first--carousel .arrow-wrapper{
+	margin: 3.5rem 40px;
+	background-color: #fff;
+}
+
+.first--carousel .arrow-wrapper-right{
+	margin: 3.5rem 40px;
+	background-color: #fff;
+}
+
+.first--carousel .arrow{
+	color: black;
+}
+
+.first--carousel .arrow-wrapper:hover{
+	background-color:  #71bc42;
+	transition: 300ms;
+}
+
+.first--carousel .arrow-wrapper-right:hover{
+	background-color: #71bc42;
+	transition: 300ms;
+}
+
+.first--carousel .arrow-wrapper:hover .arrow
+{
+	color: #fff;
+	transition: 300ms;
+}
+
+.first--carousel .arrow-wrapper-right:hover .arrow
+{
+	color: #fff;
+	transition: 300ms;
+}
+
+.first--carousel{
+	position: relative;
+}
+
 .carousel-element{
 	width: 30%;
 	height: 480px;
@@ -358,13 +423,54 @@
 }
 
 .person-description{
-	width: 90%;
-	padding: 50px 5%;
+	width: 80%;
+	padding: 50px 10%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-around;
 	height: 250px;
+	position: relative;
+}
+
+.person-description .arrow-wrapper{
+	left: 0;
+}
+
+.person-description .arrow-wrapper{
+	margin: 6rem 40px;
+	background-color: #fff;
+}
+
+.person-description .arrow-wrapper-right{
+	margin: 6rem 40px;
+	background-color: #fff;
+}
+
+.person-description .arrow{
+	color: black;
+}
+
+.person-description .arrow-wrapper:hover{
+	background-color:  #71bc42;
+	transition: 300ms;
+}
+
+.person-description .arrow-wrapper-right:hover{
+	background-color: #71bc42;
+	transition: 300ms;
+}
+
+.person-description .arrow-wrapper:hover .arrow
+{
+	color: #fff;
+	transition: 300ms;
+}
+
+.person-description .arrow-wrapper-right:hover .arrow
+{
+	color: #fff;
+	transition: 300ms;
 }
 
 .person-description-image{
@@ -579,4 +685,55 @@
 
 .text-footer{
 	text-align: center;
+}
+
+.arrow-wrapper{
+	width: 50px;
+	height: 50px;
+	display: flex;
+	position: absolute;
+	top: 35%;
+	background-color:  #6c757d33;
+	justify-content: center;
+	align-items: center;
+	margin: 3.5rem 10px;
+	user-select: none;
+}
+
+.arrow{
+	display: inline;
+	color: #fff;
+	font-size: 2.5em;
+	margin-bottom: 10px;
+}
+
+.arrow-wrapper-right{
+	width: 50px;
+	height: 50px;
+	display: flex;
+	position: absolute;
+	top: 35%;
+	right: 0;
+	background-color:  #6c757d33;
+	justify-content: center;
+	align-items: center;
+	margin: 3.5rem 10px;
+	user-select: none;
+}
+
+.arrow-wrapper:hover{
+	background-color: black;
+	transition: 300ms;
+	cursor: pointer;
+}
+
+.arrow-wrapper-right:hover{
+	background-color: black;
+	transition: 300ms;
+	cursor: pointer;
+}
+
+.footer-wrapper .footer-bar-element a{
+	display: inline;
+	width: fit-content;
 }
