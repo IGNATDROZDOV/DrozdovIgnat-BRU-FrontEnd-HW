@@ -1,0 +1,420 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+.skillsblock{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    }
+
+.textblock__title{
+        margin: 20px 0 0 20px;
+    }
+
+.textblock__text_orange_small
+    {
+        margin-left: 4%;
+        margin-right: 1.5%;
+        color: #e4ae58;
+        font-size:  75%;
+    }
+
+.textblock__text
+    {
+        margin-left: 4%;
+        margin-right: 1.5%;
+    }
+
+.skillsblock__img{
+        width: 25%;
+    }
+
+.textblock{
+    width: 50%;
+}
+.myskillsblock{
+    background-color: #e4ae58;
+    width: 25%;
+}
+
+.myskillsblock__title{
+    color: white;
+    margin-left: 4%;
+}
+
+.myskillsblock__text{
+    color: white;
+    margin-left: 4%;
+}
+
+.skillsblock_small{
+    display: flex;
+    flex-wrap:wrap;
+    width: 100%;
+    }
+
+.skillsblock_small_orange{
+    background-color: #e4ae58;
+    width: 25%;
+    text-align: center;
+}
+
+.skillsblock_small_black{
+    background-color: #161616;
+    width: 25%;
+    text-align: center;
+}
+
+.skillsblock_small_red{
+    background-color :#e9714c;
+    width:25%;
+    text-align: center;
+}
+
+.skillsblock_small_white{
+    background-color: white;
+    width:25%;
+    text-align: center;
+}
+
+.skillsblock_small__text{
+    color: white;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.skillsblock_small__header{
+    color: white;
+}
+
+ .fa{
+     color: white;
+     margin-top: 10%;
+ }
+
+ .skillsblock_small__text_gray{
+    color: gray;
+}
+
+.skillsblock_small__header_gray{
+    color: gray;
+}
+
+.fa-html5{
+    color: gray;
+}
+
+.educationblock{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50vh;
+}
+
+.educationblockExpiriences_large
+{
+    width: 50%;
+    background-image: url(img/thirdPict.jpg);
+    background-size: cover;
+    
+}
+
+.educationblockEducation_large
+{
+    width: 50%;
+    background-image: url(img/fourthPict.jpg);
+    background-size: cover;
+}
+.educationblock_large_orange{
+    background-color: #e4ae58;
+    width: 50%;
+}
+
+
+.educationblock_large_red{
+    background-color: #e9714c;
+    width: 50%;
+    color: white;
+}
+
+.comboblock__date{
+    color: #161616;
+}
+
+.educationblock_large_red__textbottom{
+    margin-left:  10%;
+}
+
+.myskillsblock:last-child{
+    padding-bottom: 1rem;
+}
+
+.educationblock_large_red__title{
+    margin-left:  4%;
+}
+
+.educationblock_large_red__text{
+    margin-left:  4%;
+}
+
+
+.educationblock_xl{
+    width: 100%;
+    background-image: linear-gradient( rgba(255, 255, 255, 0), rgba(0, 0, 0, 1) ), url(img/fifthPict.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    height: 25rem;
+    text-align: center;
+    color: white;
+}
+
+.educationblock_xl__icon{
+    margin: 0%;
+    margin-top: 5%;
+    color: white;
+}
+
+.educationblock_xl__text{
+    color: gray;
+    margin-bottom: 0;
+}
+
+.comboblock__icon{
+    margin: 0%;
+}
+
+.comboblock{
+    display: flex;
+    justify-content: space-between;
+    width:44%;
+    margin-left: 4%;
+}
+
+.educationblock_large_orange{
+  color: white;
+}
+
+.educationblock_large_orange__textbottom{
+    margin-left:  10%;
+}
+
+.educationblock_large_orange__title{
+    margin-left:  4%;
+}
+
+.educationblock_large_orange__text{
+    margin-left:  4%;
+}
+
+.educationblock_xl{
+    width: 100%;
+
+}
+
+.messageblock{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.Sayhelloblock{
+    width: 50%;
+    background-color: #e9714c;
+}
+
+.messageblock__img{
+    width: 25%;
+}
+
+.contact{
+    width: 25%;
+    background-color: black;
+}
+
+.contact__title{
+    margin-left: 5%;
+    color: white;
+}
+
+.contact__text{
+    color: gray;
+    margin-left: 5%;
+    font-size: 110%;
+}
+
+.contact__section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-left: 5%;
+    font-size: 110%;
+}
+
+.contact__section ::before{
+    padding-right: 0.5rem;
+}
+
+.contact__icon{
+    color: gray;
+    margin: 0%;
+    margin: 2% 0;
+}
+
+.contact__icon:hover{
+    color: #e4ae58;
+    transition: 700ms;
+    cursor: pointer;
+}
+
+.inputtext{
+    display: flex;
+    flex-direction: column;
+}
+
+.Sayhelloblock__name{
+    width: 80%;
+    background-color: transparent;
+    color: white;
+    margin-left: 5%;
+    margin-top: 3%;
+    border: none;
+    border-bottom: 1px solid #fb8c00;
+    outline:none;
+}
+
+.Sayhelloblock__email{
+    width: 80%;
+    background-color: transparent;
+    color: white;
+    margin-left: 5%;
+    margin-top: 3%;
+    border: none;
+    border-bottom: 1px solid #fb8c00;
+    outline:none;
+}
+
+.Sayhelloblock__message{
+    width: 80%;
+    background-color: transparent;
+    color: white;
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-bottom: 10%;
+    border: none;
+    border-bottom: 1px solid #fb8c00;
+    outline:none;
+    resize: none;
+}
+
+::placeholder{
+    color: white;
+}
+
+.Sayhelloblock__title{
+    color: white;
+    margin-left: 5%;
+}
+
+.Sayhelloblock__text{
+    color: white;
+    margin-left: 5%;
+}
+
+.Sayhelloblock__button{
+    margin-left: 5%;
+    border-radius: 13px;
+    border-color: transparent;
+    background-color: white;
+    width: 30%;
+    height: 4.5vh;
+    outline: none;
+    margin-bottom: 2%;
+}
+
+.Sayhelloblock__button:hover{
+    background-color: #e4ae58;
+    transition: 700ms;
+    cursor: pointer;
+}
+
+.Sayhelloblock__button:active{
+    transform: rotateX(360deg); 
+    transition: 350ms;
+}
+
+.second-block__right-txt {
+    width: 25%;
+    background-color: #e5b057;
+}
+
+.second-block__right-txt__header {
+    padding: 20px 20px 5px 40px;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.second-block__right-txt__first-p {
+    padding: 0 0 0 40px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.bar{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0px 10px 0 40px;
+}
+
+.percent {
+    color: white;
+}
+
+.second-bar {
+    position: relative;
+    border-bottom: 2px solid white;
+    width: 100%;
+}
+
+.second-bar-black {
+    position: absolute;
+    border-bottom: 2px solid black;
+    width: 70%;
+}
+
+.first-bar {
+    position: relative;
+    border-bottom: 2px solid white;
+    width: 100%;
+}
+
+.first-bar-black {
+    position: absolute;
+    border-bottom: 2px solid black;
+    width: 90%;
+}
+
+.third-bar {
+    position: relative;
+    border-bottom: 2px solid white;
+    width: 100%;
+}
+
+.third-bar-black {
+    position: absolute;
+    border-bottom: 2px solid black;
+    width: 80%;
+}
+
+.footermenu i{
+    width: fit-content;
+    padding: 0 0.8rem 0 0.8rem;
+}
+
+.footermenu i:hover{
+    color: #e4ae58;
+    transition: 400ms;
+}

@@ -1,0 +1,385 @@
+@media screen and (max-width:576px){
+    .header{
+        height: 100%;
+        display: flex;
+        flex-direction:column;
+    }
+
+
+.pictureblock{
+    width: 100%;
+    height: 100%;
+}
+
+.menublock{
+    width: 100%;
+    height: 100%;
+}
+
+.menu{
+    margin: initial;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    justify-content: center;
+}
+
+.menu__item{
+    display: block;
+    align-self: center;
+    margin: 0 1rem 0 1rem;
+}
+
+.menublock__text_small{
+    margin: 0%;
+    padding: 5%;
+    text-align: center;
+}
+
+.menublock__button{
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 3%;
+}
+
+
+.skillsblock{
+    display: flex;
+    flex-direction:column;
+}
+
+.textblock{
+    width: 100%;
+}
+
+.myskillsblock{
+    width: 100%;
+    padding-bottom: 2rem;
+}
+.myskillsblock__bar{
+    height: 2vh;
+}
+
+.skillsblock__img{
+    width: 100%;
+    height: 100%;
+}
+
+.skillsblock_small_red
+{   width: 50%;
+    padding-top: 5%;}
+
+.skillsblock_small_orange
+{   width: 50%;
+    padding-top: 5%;}
+
+.skillsblock_small_black
+{   width: 50%;
+    padding-top: 5%;}
+
+.skillsblock_small_white
+{    width: 50%;
+    padding-top: 5%;}
+
+.educationblock{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+}
+
+.educationblock_large_orange__title{
+    margin-left: 0%;
+}
+
+.educationblock_large_orange__text{
+    margin-left: 0%;
+}
+
+.educationblock_large_red__title{
+    margin-left: 0%;
+}
+
+.educationblock_large_red__text{
+    margin-left: 0%;
+}
+
+.educationblockExpiriences_large{
+    width: 100%;
+    height: 35vh;
+    background-size: cover;
+}
+
+.educationblock_large_red{
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 2rem;
+}
+.educationblock_large_red__textbottom{
+    margin: 0%;
+}
+
+.comboblock{
+    width: 90%;
+}
+
+.educationblock{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.educationblock_large_orange{
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 2rem;
+}
+
+.educationblockEducation_large{
+    display: block;
+    width: 100%;
+    height: 35vh;
+    background-size: cover;
+    order: -1;
+}
+.educationblock_large_orange__textbottom{
+    margin: 0%;
+}
+
+.messageblock{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Sayhelloblock{
+    width: 100%;
+}
+
+.messageblock__img{
+    width: 100%;
+}
+
+.contact{
+    width: 100%;
+}
+
+.Sayhelloblock__button{
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 3%;
+}
+
+.Sayhelloblock__title{
+    margin-left: 0%;
+    text-align: center;
+}
+
+.Sayhelloblock__text{
+    margin-left: 0%;
+    text-align: center;
+}
+
+.contact__text{
+    margin-left: 0%;
+    text-align: center;
+}
+
+.contact__title{
+    margin-left: 0%;
+    text-align: center;
+}
+
+.contact__section{
+margin: 0%;
+}
+
+.contact__icon{
+    margin-left: 0%;
+    text-align: center;
+}
+
+.footermenu i{
+    margin: 0 0.5rem 0 0.5rem;
+}
+
+div[class*=second-block__right-txt] {
+    padding: 0%;
+    margin: 5%;
+    width: 90%;
+    text-align: center;
+}
+
+}
+
+
+@media screen and (min-width: 577px) and (max-width: 1185px) {
+    .skillsblock{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .textblock{
+        width: 100%;
+    }
+    
+    .skillsblock__img{
+        width: 50%;
+    }
+
+    .myskillsblock{
+        width: 50%;
+    }
+
+    .header{
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .menublock__text_small{
+        margin: 0%;
+        padding: 5%;
+        text-align: center;
+    }
+    
+    .menublock__button{
+        width: 50%;
+        margin-left: 25%;
+        margin-bottom: 3%;
+    }
+    
+
+    .menu{
+        margin: initial;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .messageblock{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .Sayhelloblock{
+        width: 100%;
+        text-align: center;
+    }
+
+    .messageblock__img {
+        width: 50%;
+        height: 100%;
+    }
+
+    .contact{
+        width: 50%;
+    }
+
+    .Sayhelloblock__button{
+        margin: 0 0 4rem 0;
+        align-self: center;
+        height: 30px;
+    }
+
+    .inputtext input{
+        margin-left: 0%;
+        align-self: center;
+    }
+
+    .Sayhelloblock__message{
+        margin: 2rem 0 2rem 0;
+        align-self: center;
+    }
+
+    .educationblock_xl{
+        height: fit-content;
+        padding: 2rem 0 3rem 0;
+    }
+    
+    .educationblockExpiriences_large{
+        height: 100%;
+    }
+
+    .educationblock{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .educationblockExpiriences_large{
+        height: 35vh;
+        width: 100%;
+
+    }
+
+    .educationblock_large_red{
+        width: 100%;
+        height: fit-content;
+    }
+
+    .educationblock_large_orange{
+        width: 100%;
+        height: fit-content;
+    }
+
+    .educationblockEducation_large{
+        height: 35vh;
+        width: 100%;
+        display: block;
+        order: -1;
+    }
+
+    .menu__item{
+        display: block;
+        width: fit-content;
+        padding: 0 0.4rem 0 0.4rem;
+    }
+}
+
+@media screen and (max-width: 783px) {
+    .header{
+        height: 100%;
+        display: flex;
+        flex-direction:column;
+    }
+
+.pictureblock{
+    width: 100%;
+    height: 100%;
+}
+
+.menublock{
+    width: 100%;
+    height: 100%;
+}
+
+.menu{
+    margin: initial;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    justify-content: center;
+}
+
+.menu__item{
+    display: block;
+    align-self: center;
+    margin: 0 1rem 0 1rem;
+}
+
+
+.menublock__text_small{
+    margin: 0%;
+    padding: 5%;
+    text-align: center;
+}
+
+.menublock__button{
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 3%;
+}
+
+}
